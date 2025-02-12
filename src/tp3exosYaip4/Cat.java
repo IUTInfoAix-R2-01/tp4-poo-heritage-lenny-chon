@@ -1,6 +1,6 @@
 package tp3exosYaip4;
 
-public class Cat {
+public class Cat extends Animal {
   public Cat(String name) {
 	  super(name);
   }
@@ -9,6 +9,6 @@ public class Cat {
 	  System.out.println("meowwwww");
   }
   public String toString() {
-      return "Cat[Mammal[Animal[name=?]]";
- }
+    return "Cat[" + super.toString() + "]";
+}
 }

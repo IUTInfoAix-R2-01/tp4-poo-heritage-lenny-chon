@@ -1,10 +1,10 @@
 package tp3exosYaip4;
 
-public class Mammal {
+public class Mammal extends Animal {
   public Mammal(String name) {
 	  super(name);
   }
   public String toString() {
-      return "Mammal[Animal[name=?]]";
+      return "Mammal[" + super.toString() + "]";
  }
 }

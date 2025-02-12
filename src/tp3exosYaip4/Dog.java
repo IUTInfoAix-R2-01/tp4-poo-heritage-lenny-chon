@@ -1,6 +1,6 @@
 package tp3exosYaip4;
 
-public class Dog {
+public class Dog extends Animal {
   public Dog(String name) {
 	  super(name);
   }
@@ -10,5 +10,8 @@ public class Dog {
   }
 public void greets(Dog another) {
 	  System.out.println("woaffffff");
+}
+public String toString() {
+    return "Dog[" + super.toString() + "]";
 }
 }

@@ -12,7 +12,7 @@ public class Staff extends Person {
 	  }
  @Override
   public String toString() {
-	  return "Staff[Person[name=?, address=?, school=?, pay=?]";
+	  return "Staff[" + super.toString() + "school=" + school + "pay=" + pay + "]" ;
   }
   public String getSchool() {
 	return school;
